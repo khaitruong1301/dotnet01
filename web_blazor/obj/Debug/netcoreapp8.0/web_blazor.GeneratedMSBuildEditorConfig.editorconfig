@@ -30,12 +30,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGF0YUJpbmRpbmcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/HandleEvent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSGFuZGxlRXZlbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/TwoWayBinding.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVHdvV2F5QmluZGluZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Shared/AdminMasterPage.razor]
