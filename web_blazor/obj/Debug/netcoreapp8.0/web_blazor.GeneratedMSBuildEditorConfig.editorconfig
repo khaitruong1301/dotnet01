@@ -22,12 +22,28 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/ComponentParam.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50UGFyYW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/Components/CardItem.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9DYXJkSXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/Components/HeaderHome.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9IZWFkZXJIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/Components/PopupModel.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50cy9Qb3B1cE1vZGVsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/DataBinding.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGF0YUJpbmRpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/FormValidation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRm9ybVZhbGlkYXRpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/HandleEvent.razor]
