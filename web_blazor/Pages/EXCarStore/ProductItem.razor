@@ -1,0 +1,22 @@
+<div class="card">
+    <img src="@prodProp.Img" />
+    <div class="card-body">
+        <h3 class="card-title">@prodProp.Name</h3>
+        <p class="card-text">@prodProp.Price</p>
+        <button class="btn btn-success"  data-bs-toggle="modal"
+    data-bs-target="#modalId" @onclick="ViewDetail">Detail</button>
+        <button class="btn btn-dark">
+            <i class="fa fa-cart-plus"></i> Add to cart
+        </button>
+    </div>
+</div>
+@code {
+    [Parameter]
+    public ProductCarVM prodProp {get;set;} = new ProductCarVM();
+    [Parameter]
+    public EventCallback<ProductCarVM> eventClickDetail {get;set;}
+    void ViewDetail() {
+        eventClickDetail.InvokeAsync(prodProp);
+    }
+
+}

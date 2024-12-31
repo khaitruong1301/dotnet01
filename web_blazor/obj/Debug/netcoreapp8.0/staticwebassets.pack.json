@@ -53,6 +53,22 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/images/black-car.jpg",
+      "PackagePath": "staticwebassets/images/black-car.jpg"
+    },
+    {
+      "Id": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/images/red-car.jpg",
+      "PackagePath": "staticwebassets/images/red-car.jpg"
+    },
+    {
+      "Id": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/images/silver-car.jpg",
+      "PackagePath": "staticwebassets/images/silver-car.jpg"
+    },
+    {
+      "Id": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/images/steel-car.jpg",
+      "PackagePath": "staticwebassets/images/steel-car.jpg"
+    },
+    {
       "Id": "obj/Debug/netcoreapp8.0/staticwebassets/msbuild.build.web_blazor.props",
       "PackagePath": "build\\web_blazor.props"
     },

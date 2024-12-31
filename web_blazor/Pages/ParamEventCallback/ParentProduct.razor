@@ -1,0 +1,17 @@
+<ProductCard prod="@product" eventViewDetail="ViewDetail" />
+
+
+@code {
+    [Parameter]
+    public ProductCardViewModel product{get;set;}
+
+    [Parameter]
+    public EventCallback<ProductCardViewModel> eventParent{get;set;}
+
+
+    void ViewDetail () {
+        eventParent.InvokeAsync(product);
+    }
+
+
+}

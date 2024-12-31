@@ -1,0 +1,46 @@
+@page "/ex-carstore"
+@layout HomeMasterPage
+
+<div class="container">
+    <div class="text-end mt-2">
+        <CartModal lstCartItem="lstCartItem" />
+
+    </div>
+
+    <Modal prodDetail="@proDetailModal" />
+    <ProductList LstProduct="@LstProduct" eventClickDetail="ChangeCarModal" />
+</div>
+
+@code {
+    ProductCarVM proDetailModal = new ProductCarVM()
+        {
+            Id = "1",
+            Name = "Black car",
+            Img = "/images/black-car.jpg",
+            Price =
+        1000
+        };
+    List<CartItemVM> lstCartItem = new List<CartItemVM>() {
+    new CartItemVM() {Id="1",Name="Black car", Img="/images/black-car.jpg",Price=1000,Quantity=10}
+    };
+
+
+
+    void ChangeCarModal(ProductCarVM prodClick)
+    {
+        proDetailModal = prodClick;
+    }
+
+
+
+
+    List<ProductCarVM> LstProduct = new List<ProductCarVM>(){
+new ProductCarVM() {Id="1",Name="Black car", Img="/images/black-car.jpg",Price=1000},
+new ProductCarVM() {Id="2",Name="Red car", Img="/images/red-car.jpg",Price=2000},
+new ProductCarVM() {Id="3",Name="Silver car", Img="/images/silver-car.jpg",Price=3000},
+new ProductCarVM() {Id="4",Name="Steel car", Img="/images/steel-car.jpg",Price=4000},
+};
+
+
+
+}

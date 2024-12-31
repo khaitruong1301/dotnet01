@@ -42,6 +42,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGF0YUJpbmRpbmcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/EXCarStore/CartModal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRVhDYXJTdG9yZS9DYXJ0TW9kYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/EXCarStore/EXCarStore.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRVhDYXJTdG9yZS9FWENhclN0b3JlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/EXCarStore/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRVhDYXJTdG9yZS9Nb2RhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/EXCarStore/ProductItem.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRVhDYXJTdG9yZS9Qcm9kdWN0SXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/EXCarStore/ProductList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRVhDYXJTdG9yZS9Qcm9kdWN0TGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/FormValidation.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRm9ybVZhbGlkYXRpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,6 +76,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/ParamEventCallback/ParentProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFyYW1FdmVudENhbGxiYWNrL1BhcmVudFByb2R1Y3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/ParamEventCallback/ProductCard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFyYW1FdmVudENhbGxiYWNrL1Byb2R1Y3RDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/ParamEventCallback/ProductDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFyYW1FdmVudENhbGxiYWNrL1Byb2R1Y3REZXRhaWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/Register.razor]
