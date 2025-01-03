@@ -4,7 +4,7 @@
         @foreach (ProductCarVM prod in LstProduct)
         {
             <div class="col-3">
-                <ProductItem prodProp="prod" eventClickDetail="eventClickDetail"></ProductItem>
+                <ProductItem eventAddToCart="eventAddToCart" prodProp="prod" eventClickDetail="eventClickDetail"></ProductItem>
             </div>
         }
     </div>
@@ -14,7 +14,8 @@
     public List<ProductCarVM> LstProduct { get; set; } = new List<ProductCarVM>();
     [Parameter]
     public EventCallback<ProductCarVM> eventClickDetail {get;set;}
-
+    [Parameter]
+    public EventCallback<ProductCarVM> eventAddToCart{get;set;}
 
 
 }

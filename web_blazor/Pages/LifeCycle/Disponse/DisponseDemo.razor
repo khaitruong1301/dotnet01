@@ -1,0 +1,27 @@
+@page "/dispose-demo"
+@using System.Threading
+@layout HomeMasterPage
+@implements IDisposable
+
+<div class="container">
+    <h3>Demo lifecycle disponse</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic alias atque totam rem amet quisquam, reiciendis pariatur harum dignissimos cumque itaque? Tempore veniam voluptate, voluptas amet qui atque nam debitis.</p>
+    <button class="btn btn-dark">@countDown</button>
+</div>
+
+@code{
+    public int countDown{get;set;} = 10;
+    public Timer timer;
+    protected override async Task OnInitializedAsync(){
+        timer = new Timer((state) => {
+            countDown--;
+            Console.WriteLine(countDown);
+            InvokeAsync(StateHasChanged);
+        },null,0,1000);
+    }
+    public void Dispose(){
+        timer.Dispose();
+    }
+    
+
+}   

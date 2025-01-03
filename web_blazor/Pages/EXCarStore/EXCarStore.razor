@@ -1,4 +1,7 @@
 @page "/ex-carstore"
+@using System.Text.Json
+@inject IMapper _mapper;
+
 @layout HomeMasterPage
 
 <div class="container">
@@ -8,7 +11,7 @@
     </div>
 
     <Modal prodDetail="@proDetailModal" />
-    <ProductList LstProduct="@LstProduct" eventClickDetail="ChangeCarModal" />
+    <ProductList LstProduct="@LstProduct" eventClickDetail="ChangeCarModal" eventAddToCart="addToCart" />
 </div>
 
 @code {
@@ -24,8 +27,26 @@
     new CartItemVM() {Id="1",Name="Black car", Img="/images/black-car.jpg",Price=1000,Quantity=10}
     };
 
+    void addToCart(ProductCarVM prodClick){
+        //Giá trị lấy ra từ component ProductItem
+       CartItemVM newItem = _mapper.Map<CartItemVM>(prodClick);
+       Console.WriteLine(JsonSerializer.Serialize(newItem));
+       //Kiểm tra sản phẩm có trong list giỏ hàng chưa 
+       CartItemVM item = lstCartItem.Find(it => it.Id == newItem.Id );
+       if(item != null){
+            item.Quantity += 1;
+       }else{
+            lstCartItem.Add(newItem);
+       }
+    }
 
+    void deleteItem(string idClick) {
 
+    }
+    void changeQuantity(string idClick, int quantity) {
+
+    }
+    
     void ChangeCarModal(ProductCarVM prodClick)
     {
         proDetailModal = prodClick;
@@ -43,4 +64,4 @@ new ProductCarVM() {Id="4",Name="Steel car", Img="/images/steel-car.jpg",Price=4
 
 
 
-}
+}    

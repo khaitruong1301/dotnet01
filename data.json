@@ -1,0 +1,56 @@
+[
+    {
+      "id": "",
+      "name": "san pham 1",
+      "price": "2000",
+      "img": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "demo description",
+      "type": "APPLE",
+      "deleted": false
+    },
+    {
+      "id": "10101",
+      "name": "HaHa",
+      "price": "18",
+      "img": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:90/plain/https://cellphones.com.vn/media/wysiwyg/Phone/Apple/iphone_15/dien-thoai-iphone-15-256gb-8.jpg",
+      "description": "Facilis sit reprehe",
+      "type": "OPPO",
+      "deleted": false
+    },
+    {
+      "id": "1111",
+      "name": "products",
+      "price": "100000",
+      "img": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:90/plain/https://cellphones.com.vn/media/wysiwyg/Phone/Apple/iphone_15/dien-thoai-iphone-15-256gb-8.jpg",
+      "description": "iphone",
+      "type": "APPLE",
+      "deleted": false
+    },
+    {
+      "id": "1234",
+      "name": "Driscoll Stark",
+      "price": "38",
+      "img": "https://cdn2.cellphones.com.vn/x/media/catalog/product/p/h/photo_2022-09-28_21-58-48_5.jpg",
+      "description": "Necessitatibus imped",
+      "type": "OPPO",
+      "deleted": false
+    },
+    {
+      "id": "645",
+      "name": "OPPO A3A test",
+      "price": "529999",
+      "img": "https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/42/328449/oppo-a3x-do-1-638611485944050736-750x500.jpg",
+      "description": "Điện thoại OPPO A3x 4GB/64GB",
+      "type": "OPPO",
+      "deleted": false
+    },
+    {
+      "id": "666",
+      "name": "OPPO A3xxxxx",
+      "price": "456",
+      "img": "https://cdn.xtmobile.vn/vnt_upload/product/09_2023/thumbs/600_15p_tita_4.jpg",
+      "description": "Điện thoại OPPO A3x 4GB/64GB",
+      "type": "XIAOMI",
+      "deleted": false
+    }
+]

@@ -74,6 +74,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/LifeCycle/Disponse/DisponseDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlmZUN5Y2xlL0Rpc3BvbnNlL0Rpc3BvbnNlRGVtby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/LifeCycle/LifeCycleRender/NotifyList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlmZUN5Y2xlL0xpZmVDeWNsZVJlbmRlci9Ob3RpZnlMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/LifeCycle/LifeCycleRender/ParentComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlmZUN5Y2xlL0xpZmVDeWNsZVJlbmRlci9QYXJlbnRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/LifeCycle/Oninit/DemoOninit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlmZUN5Y2xlL09uaW5pdC9EZW1vT25pbml0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/LifeCycle/SetParameters/ProductDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlmZUN5Y2xlL1NldFBhcmFtZXRlcnMvUHJvZHVjdERldGFpbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -88,6 +108,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/ParamEventCallback/ProductDetail.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFyYW1FdmVudENhbGxiYWNrL1Byb2R1Y3REZXRhaWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/RefDemo/PersonCard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVmRGVtby9QZXJzb25DYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/RefDemo/RefDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVmRGVtby9SZWZEZW1vLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/Register.razor]

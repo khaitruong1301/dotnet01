@@ -32,6 +32,9 @@
             <li class="nav-item">
                 <NavLink ActiveClass="active-link" class="nav-link" href="/ex-carstore" Match="NavLinkMatch.All">EX Car Store</NavLink>
             </li>
+                  <li class="nav-item">
+                <NavLink ActiveClass="active-link" class="nav-link" href="/ref-demo" Match="NavLinkMatch.All">Ref</NavLink>
+            </li>
             <li class="nav-item dropdown">
                 <a
                     class="nav-link dropdown-toggle"
@@ -46,6 +49,24 @@
                     <NavLink class="dropdown-item" href="/oneway-binding">Oneway-binding</NavLink>
                     <NavLink class="dropdown-item" href="/handle-event">Handle event</NavLink>
                     <NavLink class="dropdown-item" href="/two-way-binding">Twoway binding</NavLink>
+                </div>
+            </li>
+             <li class="nav-item dropdown">
+                <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="dropdownId"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Lifecycle blazor</a
+                >
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <NavLink class="dropdown-item" href="/demo-oninit">Oninit</NavLink>
+                    <NavLink class="dropdown-item" href="/detail/dsa">OnSetParameter</NavLink>
+                    <NavLink class="dropdown-item" href="/lifecycle-render">lifecycle render</NavLink>
+                     <NavLink class="dropdown-item" href="/dispose-demo">Dispose</NavLink>
+
                 </div>
             </li>
         </ul>
