@@ -1,4 +1,18 @@
 ﻿@page "/"
 @layout HomeMasterPage
-
+@inject IJSRuntime js;
 <h1>Hello, world! </h1>
+
+<button @onclick="handleClick">click</button>
+<script>
+    function handleClick() {
+        console.log(1);
+    }
+</script>
+
+@code {
+    async  Task handleClick(){
+      await  js.InvokeVoidAsync("handleClick","");
+    }
+
+}

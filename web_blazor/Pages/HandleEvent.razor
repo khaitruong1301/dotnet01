@@ -65,7 +65,6 @@
     void handleChangePrice (ChangeEventArgs e) {
         price = Convert.ToInt16((string) e.Value);
     }
-
     void handleChangePerson() {
         List<PersonViewModel> lstPerson = new List<PersonViewModel>();
         PersonViewModel per1 = new PersonViewModel(2,"Nguyễn Thị B",20);
@@ -74,13 +73,8 @@
         lstPerson.Add(per1);
         lstPerson.Add(per2);
         lstPerson.Add(per3);
-
         Random random = new Random();
         int index = random.Next(0,lstPerson.Count);
-
         person = lstPerson.ElementAt(index);
-
     }
-
-  
 }
