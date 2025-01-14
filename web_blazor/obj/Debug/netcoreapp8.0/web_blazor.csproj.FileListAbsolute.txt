@@ -63,3 +63,5 @@
 /Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/obj/Debug/netcoreapp8.0/ref/web_blazor.dll
 /Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/AutoMapper.dll
 /Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/package-lock.json
+/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/package.json

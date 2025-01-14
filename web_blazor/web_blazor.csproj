@@ -7,6 +7,13 @@
     <PackageReference Include="Microsoft.Identity.Web" Version="1.*" />
     <PackageReference Include="Microsoft.Identity.Web.UI" Version="1.*" />
   </ItemGroup>
+  <Target Name="RunNodeScripts" BeforeTargets="Build">
+    <!-- Cài đặt dependencies nếu cần -->
+    <!-- <Exec Command="npm install" /> -->
+
+    <!-- Chạy script để biên dịch SASS -->
+    <Exec Command="npm run build-sass" />
+  </Target>
 </Project>
 
 

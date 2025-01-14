@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g3I0D/UUvm4IirHnlYIu1QX2L63bxKLcYq5sdhAe/JE=",
+  "Hash": "egBa79fFMPeEblnKBR4wrcDWlH2a1op2v8fOOH5LxLA=",
   "Source": "web_blazor",
   "BasePath": "_content/web_blazor",
   "Mode": "Default",
@@ -53,6 +53,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/css/index.css",
+      "SourceId": "web_blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/",
+      "BasePath": "_content/web_blazor",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/index.css"
+    },
+    {
+      "Identity": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/css/index.css.map",
+      "SourceId": "web_blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/",
+      "BasePath": "_content/web_blazor",
+      "RelativePath": "css/index.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/index.css.map"
     },
     {
       "Identity": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/css/open-iconic/FONT-LICENSE",
@@ -338,6 +376,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/steel-car.jpg"
+    },
+    {
+      "Identity": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/scss/index.scss",
+      "SourceId": "web_blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/",
+      "BasePath": "_content/web_blazor",
+      "RelativePath": "scss/index.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/scss/index.scss"
     }
   ]
 }

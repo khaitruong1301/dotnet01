@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
     },
     {
+      "Id": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/css/index.css",
+      "PackagePath": "staticwebassets/css/index.css"
+    },
+    {
+      "Id": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/css/index.css.map",
+      "PackagePath": "staticwebassets/css/index.css.map"
+    },
+    {
       "Id": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/css/open-iconic/FONT-LICENSE",
       "PackagePath": "staticwebassets/css/open-iconic"
     },
@@ -67,6 +75,10 @@
     {
       "Id": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/images/steel-car.jpg",
       "PackagePath": "staticwebassets/images/steel-car.jpg"
+    },
+    {
+      "Id": "/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/wwwroot/scss/index.scss",
+      "PackagePath": "staticwebassets/scss/index.scss"
     },
     {
       "Id": "obj/Debug/netcoreapp8.0/staticwebassets/msbuild.build.web_blazor.props",
