@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using web_blazor.Data;
+using web_blazor.Services;
 
 namespace web_blazor
 {
@@ -35,7 +36,9 @@ namespace web_blazor
             services.AddScoped<IMapper,Mapper>();
             //http client để gọi api
             services.AddHttpClient();
-            
+            //Khai báo service (DI)
+            services.AddScoped<CountService>();
+            services.AddScoped<CryptoService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
