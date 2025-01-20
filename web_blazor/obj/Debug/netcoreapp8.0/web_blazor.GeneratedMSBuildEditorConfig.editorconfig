@@ -22,6 +22,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/AddNewProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRkTmV3UHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/CateProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZVByb2R1Y3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/ComponentParam.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50UGFyYW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -110,6 +118,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFyYW1FdmVudENhbGxiYWNrL1Byb2R1Y3REZXRhaWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/ProductDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdERldGFpbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/RefDemo/PersonCard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVmRGVtby9QZXJzb25DYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -120,6 +132,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/Search.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VhcmNoLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/StateManagement/ButtonCount.razor]
