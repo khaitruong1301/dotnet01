@@ -1,11 +1,16 @@
-@page "/addnew-product"
+@page "/update-product/{Id}"
 @layout HomeMasterPage
 @using System.ComponentModel.DataAnnotations
 @using Microsoft.AspNetCore.Components.Forms
 @using System.Text.Json
 @inject ProductService prodService
 @inject NavigationManager Navigation
+
 <div class="container">
+    @{
+        var product = prodService.productEdit;
+    }
+    <h3>Update product - @product.name</h3>
     <EditForm Model="@product" OnValidSubmit="HandleValidSubmit">
         <DataAnnotationsValidator />
         <ValidationSummary />
@@ -51,18 +56,30 @@
     <div class="alert alert-danger">@res</div>
 </div>
 
+
 @code {
-    private ProductAddNew product = new ProductAddNew();
+    [Parameter]
+    public string Id { get; set; } 
+
     private string res { get; set; } = "";
-    protected override async Task OnInitializedAsync() {
+    protected override async Task OnInitializedAsync()
+    {
         prodService.OnChange += StateHasChanged;
     }
+
+    public override async Task SetParametersAsync(ParameterView param){
+        //Chạy mỗi khi có tham số [Parameter] của component thay đổi
+        await base.SetParametersAsync(param);
+        await prodService.GetProductByIdEditApi(Id);
+    }
+  
     private async Task HandleValidSubmit()
     {
-        res = await prodService.AddNewProduct(product);
+        res = await prodService.UpdateProductApi();
         StateHasChanged();
     }
-    public void Dispose(){
+    public void Dispose()
+    {
         prodService.OnChange -= StateHasChanged;
 
     }

@@ -65,3 +65,12 @@
 /Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/package-lock.json
 /Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/package.json
+/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/Microsoft.AspNetCore.Connections.Abstractions.dll
+/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/Microsoft.AspNetCore.Http.Connections.Client.dll
+/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/Microsoft.AspNetCore.Http.Connections.Common.dll
+/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/Microsoft.AspNetCore.SignalR.Client.dll
+/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/Microsoft.AspNetCore.SignalR.Client.Core.dll
+/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/Microsoft.AspNetCore.SignalR.Common.dll
+/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/Microsoft.Extensions.Features.dll
+/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/bin/Debug/netcoreapp8.0/Microsoft.Extensions.Options.dll
