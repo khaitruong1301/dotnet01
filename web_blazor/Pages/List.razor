@@ -1,0 +1,80 @@
+@page "/list-store"
+@inject HttpClient Http
+@inject NavigationManager Navigation
+@layout HomeMasterPage
+<div class="container mt-2">
+    <button class="btn btn-primary my-2">Create store</button>
+    <h3>Store List</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Alias</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (stores != null)
+        {
+            foreach (var store in stores)
+            {
+                <tr>
+                    <td>@store.Id</td>
+                    <td>@store.Name</td>
+                    <td>@store.Alias</td>
+                    <td>@store.Description</td>
+                    @{string img = $"https://picsum.photos/id/{store.Id}/200/200"; }
+                    <td><img src="@img" alt="@store.Name" width="100" /></td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="() => EditStore(store.Id)">Edit</button>
+                        <button class="btn btn-danger" @onclick="() => EditStore(store.Id)">Del</button>
+                    </td>
+
+                   
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="7">Loading...</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+</div>
+
+@code {
+    private List<Store> stores;
+    protected override async Task OnInitializedAsync()
+    {
+        @* stores = await Http.GetFromJsonAsync<List<Store>>("https://your-api-endpoint/stores"); *@
+        // Dummy Data - Có thể thay thế bằng API gọi từ server
+        stores = new List<Store>
+        {
+            new Store { Id = 1, Name = "Hà Nội", Alias = "ha-noi", Latitude = "21.0285", Longtitude = "105.8542", Description = "Thủ đô Việt Nam", Image = "https://via.placeholder.com/100" },
+            new Store { Id = 2, Name = "TP.HCM", Alias = "tp-ho-chi-minh", Latitude = "10.8231", Longtitude = "106.6297", Description = "Thành phố lớn nhất Việt Nam", Image = "https://via.placeholder.com/100" },
+            new Store { Id = 3, Name = "Đà Nẵng", Alias = "da-nang", Latitude = "16.0544", Longtitude = "108.2022", Description = "Thành phố đáng sống", Image = "https://via.placeholder.com/100" },
+            // Thêm các tỉnh khác nếu cần
+        };
+    }
+    private void EditStore(int id)
+    {
+        Navigation.NavigateTo($"/stores/edit/{id}");
+    }
+    public class Store
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Alias { get; set; }
+        public string Latitude { get; set; }
+        public string Longtitude { get; set; }
+        public string Description { get; set; }
+        public string Image { get; set; }
+        public bool Deleted { get; set; }
+    }
+}

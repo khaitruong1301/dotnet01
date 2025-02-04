@@ -1,0 +1,69 @@
+@page "/store/{Id:int?}"
+@layout HomeMasterPage
+@inject NavigationManager NavigationManager
+
+
+<div class="container">
+    <h3>@PageTitle</h3>
+    <EditForm Model="@store">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div>
+            <label for="name">Name:</label>
+            <InputText id="name" @bind-Value="store.Name" class="form-control" />
+        </div>
+
+        <div>
+            <label for="alias">Alias:</label>
+            <InputText id="alias" @bind-Value="store.Alias" class="form-control" />
+        </div>
+
+        <div>
+            <label for="latitude">Latitude:</label>
+            <InputText id="latitude" @bind-Value="store.Latitude" class="form-control" />
+        </div>
+
+        <div>
+            <label for="longtitude">Longtitude:</label>
+            <InputText id="longtitude" @bind-Value="store.Longtitude" class="form-control" />
+        </div>
+
+        <div>
+            <label for="description">Description:</label>
+            <InputTextArea id="description" @bind-Value="store.Description" class="form-control" />
+        </div>
+
+        <div>
+            <label for="image">Image URL:</label>
+            <InputText id="image" @bind-Value="store.Image" class="form-control" />
+        </div>
+
+        <div>
+            <label>
+                <InputCheckbox @bind-Value="store.Deleted" /> Deleted
+            </label>
+        </div>
+
+        <button class="btn btn-primary">Save</button>
+        <button class="btn btn-secondary">Cancel</button>
+    </EditForm>
+
+</div>
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+    private string PageTitle => Id.HasValue ? "Edit StoreVM" : "Create New StoreVM";
+    private StoreVM store { get; set; } = new StoreVM() {Name="store 1 hcm",Alias="store-1-hcm",Longtitude="111",Latitude="222",Description="lorem ...",Image="https://i.pravatar.cc?u=2"};
+    public class StoreVM
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Alias { get; set; }
+        public string Latitude { get; set; }
+        public string Longtitude { get; set; }
+        public string Description { get; set; }
+        public string Image { get; set; }
+        public bool Deleted { get; set; }
+    }
+}
