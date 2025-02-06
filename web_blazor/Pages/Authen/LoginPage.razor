@@ -1,7 +1,54 @@
 @page "/login-page"
+@using System.Text.Json
 @layout AdminMasterPage
-
+@inject JwtAuthService jwtService;
+@inject Blazored.LocalStorage.ILocalStorageService LocalStorage;
+@inject NavigationManager navigate;
 
 <div class="container">
-    Login
+    <h3>Login</h3>
+    <EditForm Model="UserLogin" class="w-50 mx-auto" OnValidSubmit="HandleLogin">
+        <div class="form-group">
+            <p>UserName</p>
+            <input class="form-control" @bind="@UserLogin.UserName" />
+        </div>
+        <div class="form-group">
+            <p>Password</p>
+            <input class="form-control" @bind="@UserLogin.Password" type="password" />
+        </div>
+        <div class="form-group">
+            <p>Role</p>
+            <select class="form-control" @bind="@UserLogin.Role">
+                <option value="admin">Admin</option>
+                <option value="user">User</option>
+            </select>
+        </div>
+        <div class="form-group mt-2">
+            <button class="btn btn-primary" type="submit">Login</button>
+        </div>
+    </EditForm>
 </div>
+@code {
+    public UserLoginVM UserLogin = new UserLoginVM();
+
+    public async Task HandleLogin()
+    {
+        Console.WriteLine($"{JsonSerializer.Serialize(UserLogin)}");
+        //Check username trên csdl .....
+        string token = jwtService.GenerateToken(UserLogin);
+        Console.WriteLine($"token: {token} ");
+        //Lưu token vào client
+        await LocalStorage.SetItemAsync("token", token);
+        if (UserLogin.Role == UserRole.User)
+        {
+            //Chuyển hướng và reload lại trang
+            navigate.NavigateTo("/user-page", true); //Chuyển hướng và reload trang
+        }
+        else if (UserLogin.Role == UserRole.Admin)
+        {
+            navigate.NavigateTo("/admin-page", true); //Chuyển hướng và reload trang
+
+        }
+
+    }
+}
