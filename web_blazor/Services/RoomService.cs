@@ -3,12 +3,12 @@ using System.Linq;
 
 public class RoomService  {
     public static List<RoomVM> lstRoom = new List<RoomVM>();
-    public RoomService() {
-        for(int i = 1; i<= 10; i++){
-            RoomVM room = new RoomVM();
-            lstRoom.Add(room);
-        }
-    }
+    // static RoomService() {
+    //     for(int i = 1; i<= 10; i++){
+    //         RoomVM room = new RoomVM();
+    //         lstRoom.Add(room);
+    //     }
+    // }
     public void NewRoom () {
         RoomVM room = new RoomVM();
         lstRoom.Add(room);

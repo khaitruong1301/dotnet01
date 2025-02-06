@@ -26,6 +26,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRkTmV3UHJvZHVjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/Authen/AdminPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aGVuL0FkbWluUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/Authen/LoginPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aGVuL0xvZ2luUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/Authen/UserPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aGVuL1VzZXJQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/CateProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZVByb2R1Y3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,6 +64,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/DataBinding.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGF0YUJpbmRpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/DemoSignalR/ChatRoom.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVtb1NpZ25hbFIvQ2hhdFJvb20ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Volumes/Cybersoft/DotNet01/buoi24_blazor/web_blazor/Pages/EXCarStore/CartModal.razor]
