@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("web_blazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a017b6514c4e88b33db2220ddc19d1b985b84e0e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ed645fe1c40ceee6254c277a9b81ebd8f40b650")]
 [assembly: System.Reflection.AssemblyProductAttribute("web_blazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("web_blazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
